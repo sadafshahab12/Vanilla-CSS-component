@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+}
+body {
+  padding: 20px;
+}
+
+h1,
+h2 {
+  margin-bottom: 10px;
+}
+section {
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 0.6em 1.2em;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  margin: 5px;
+}
+.btn-primary {
+  background: #007bff;
+  color: white;
+}
+.btn-primary:hover {
+  background: #0056b3;
+}
+.btn-primary:active {
+  background: #003f7f;
+}
+.btn-primary:disabled {
+  background: #a0c8ff;
+  cursor: not-allowed;
+}
+.btn-secondary {
+  background: #6c757d;
+  color: white;
+}
+.btn-secondary:hover {
+  background: #5a6268;
+}
+.btn-outline {
+  background: transparent;
+  border: 2px solid #007bff;
+  color: #007bff;
+}
+.btn-outline:hover {
+  background: #007bff;
+  color: white;
+}
+
+.btn-small {
+  padding: 0.4em 0.8em;
+  font-size: 14px;
+}
+.btn-large {
+  padding: 0.8em 1.6em;
+  font-size: 18px;
+}
+
+.btn-pill {
+  border-radius: 50px;
+}
+
+.btn-square {
+  border-radius: 0;
+}
+
+/* ghost button */
+/* Ghost Button */
+.btn-ghost {
+  background: transparent;
+  color: #333;
+  border: 2px solid transparent;
+}
+.btn-ghost:hover {
+  border-color: #333;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* Danger Button */
+.btn-danger {
+  background: #dc3545;
+  color: white;
+}
+.btn-danger:hover {
+  background: #b52a37;
+}
+.btn-danger:active {
+  background: #8a1f2a;
+}
+.btn:focus-visible {
+  outline: 3px solid #ff9800;
+  outline-offset: 2px;
+}
